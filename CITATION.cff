@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use NanoSig, please cite it as below."
+title: "NanoSig"
+version: 0.1.0
+date-released: "2026-06-26"
+authors:
+  - family-names: Baharibabadi
+    given-names: Azita
+    affiliation: "Department of Biology and Biotechnology, University of Pavia"
+repository-code: "https://github.com/AzitaBaharibabadi/NanoSig"
+abstract: >
+  NanoSig is a probabilistic classifier that improves confidence
+  calibration of low-abundance taxonomic detections near the
+  detection limit in long-read metagenomic data.
+license-url: "https://github.com/AzitaBaharibabadi/NanoSig/blob/main/LICENSE"
