@@ -1,0 +1,4 @@
+purpose	organism	accession	source	notes
+endosymbiont_target	Wolbachia pipientis wMel	GCF_000008025.1 (AE017196)	NCBI RefSeq	Complete circular genome, 1267782 bp; Wu et al. 2004
+host_proxy_1	Tetranychus urticae	GCA_000239435.1	NCBI GenBank	ASM23943v1, Grbic et al. 2011; different family (Tetranychidae) than target species
+host_proxy_2	Phytoseiulus persimilis	GCA_037576195.1	NCBI GenBank	Same family (Phytoseiidae) as the 5 target Amblyseius/Neoseiulus/Euseius/Phytoseius species
