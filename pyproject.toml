@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanosig"
+version = "0.1.0"
+description = "Confidence-calibrated detection of low-abundance taxa in long-read metagenomic data"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Azita Baharibabadi", email = "bahariazita21@gmail.com"}
+]
+dependencies = [
+  "scikit-learn>=1.5,<1.6",
+  "xgboost>=2.1,<2.2",
+  "pandas>=2.2,<2.3",
+  "numpy>=1.26,<1.27",
+  "matplotlib>=3.9,<3.10",
+  "seaborn>=0.13,<0.14",
+  "joblib>=1.4,<1.5",
+]
+
+[project.scripts]
+nanosig-cli = "nanosig.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["nanosig*"]
