@@ -1,0 +1,13 @@
+name: symbiont_ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - scikit-learn=1.5.*
+  - xgboost=2.1.*
+  - pandas=2.2.*
+  - numpy=1.26.*
+  - matplotlib=3.9.*
+  - seaborn=0.13.*
+  - joblib=1.4.*
+  - pip
