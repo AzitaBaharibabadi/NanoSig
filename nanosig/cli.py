@@ -7,7 +7,10 @@ from nanosig import __version__
 def build_parser():
     parser = argparse.ArgumentParser(
         prog="nanosig-cli",
-        description="NanoSig: confidence-calibrated detection of low-abundance taxa in long-read metagenomic data.",
+        description=(
+            "NanoSig: confidence-calibrated detection of low-abundance "
+            "taxa in long-read metagenomic data."
+        ),
     )
     parser.add_argument(
         "--version",
